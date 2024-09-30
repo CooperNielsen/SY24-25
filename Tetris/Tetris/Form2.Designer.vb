@@ -35,6 +35,8 @@ Partial Class Form2
         Platform1 = New PictureBox()
         PictureBox1 = New PictureBox()
         PictureBox2 = New PictureBox()
+        Enemy4 = New PictureBox()
+        PictureBox3 = New PictureBox()
         CType(Avatar, ComponentModel.ISupportInitialize).BeginInit()
         CType(Hellcat, ComponentModel.ISupportInitialize).BeginInit()
         CType(Enemy, ComponentModel.ISupportInitialize).BeginInit()
@@ -43,6 +45,8 @@ Partial Class Form2
         CType(Platform1, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
+        CType(Enemy4, ComponentModel.ISupportInitialize).BeginInit()
+        CType(PictureBox3, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Avatar
@@ -85,7 +89,7 @@ Partial Class Form2
         ' Enemy2
         ' 
         Enemy2.Image = CType(resources.GetObject("Enemy2.Image"), Image)
-        Enemy2.Location = New Point(550, 124)
+        Enemy2.Location = New Point(550, 133)
         Enemy2.Name = "Enemy2"
         Enemy2.Size = New Size(90, 121)
         Enemy2.SizeMode = PictureBoxSizeMode.StretchImage
@@ -146,11 +150,33 @@ Partial Class Form2
         PictureBox2.TabStop = False
         PictureBox2.Tag = "wall"
         ' 
+        ' Enemy4
+        ' 
+        Enemy4.Image = CType(resources.GetObject("Enemy4.Image"), Image)
+        Enemy4.Location = New Point(12, 374)
+        Enemy4.Name = "Enemy4"
+        Enemy4.Size = New Size(118, 94)
+        Enemy4.SizeMode = PictureBoxSizeMode.StretchImage
+        Enemy4.TabIndex = 9
+        Enemy4.TabStop = False
+        ' 
+        ' PictureBox3
+        ' 
+        PictureBox3.BackColor = Color.Tan
+        PictureBox3.Location = New Point(660, 226)
+        PictureBox3.Name = "PictureBox3"
+        PictureBox3.Size = New Size(290, 28)
+        PictureBox3.TabIndex = 10
+        PictureBox3.TabStop = False
+        PictureBox3.Tag = "Wall"
+        ' 
         ' Form2
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(1027, 547)
+        Controls.Add(PictureBox3)
+        Controls.Add(Enemy4)
         Controls.Add(PictureBox2)
         Controls.Add(PictureBox1)
         Controls.Add(Platform1)
@@ -170,6 +196,8 @@ Partial Class Form2
         CType(Platform1, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
+        CType(Enemy4, ComponentModel.ISupportInitialize).EndInit()
+        CType(PictureBox3, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
     End Sub
@@ -185,5 +213,7 @@ Partial Class Form2
     Friend WithEvents Platform1 As PictureBox
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents Enemy4 As PictureBox
+    Friend WithEvents PictureBox3 As PictureBox
 
 End Class
