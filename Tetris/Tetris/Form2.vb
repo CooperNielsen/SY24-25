@@ -4,6 +4,7 @@
         PaceY(Enemy2, PictureBox1, 4)
         PaceX(Enemy, Platform1, 4)
         follow(Enemy3, Avatar, 5, 5)
+        follow(Enemy4, Avatar, 7, 7)
     End Sub
     Sub PaceX(e As PictureBox, p As PictureBox, speed As Integer)
         Dim dir As Integer
