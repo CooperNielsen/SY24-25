@@ -1,9 +1,9 @@
 ﻿Public Class Form2
     Dim score As Integer
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
-
+        PaceY(Enemy2, PictureBox1, 4)
         PaceX(Enemy, Platform1, 4)
-        follow(Enemy3, Avatar, 5, 0)
+        follow(Enemy3, Avatar, 5, 5)
     End Sub
     Sub PaceX(e As PictureBox, p As PictureBox, speed As Integer)
         Dim dir As Integer
