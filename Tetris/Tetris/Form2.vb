@@ -1,10 +1,10 @@
 ﻿Public Class Form2
     Dim score As Integer
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
-        PaceY(Enemy2, PictureBox1, 4)
-        PaceX(Enemy, Platform1, 4)
-        follow(Enemy3, Avatar, 5, 5)
-        follow(Enemy4, Avatar, 7, 7)
+        PaceY(Enemy2Bad, PictureBox1, 4)
+        PaceX(EnemyBad, Platform1, 4)
+        follow(Enemy3Bad, Avatar, 3, 3)
+        follow(Enemy4Bad, Avatar, 3, 3)
     End Sub
     Sub PaceX(e As PictureBox, p As PictureBox, speed As Integer)
         Dim dir As Integer
@@ -67,6 +67,7 @@
         Avatar.Refresh()
         If Avatar.Bounds.IntersectsWith(Hellcat.Bounds) Then
             Hellcat.Visible = False
+            PointsTimer.Enabled = True
         End If
     End Sub
     Sub move(p As PictureBox, xdir As Integer, ydir As Integer)
@@ -74,13 +75,27 @@
         If IntersectsWith(p, "wall") Then
             p.Location -= New Point(xdir, ydir)
         End If
+        If IntersectsWith(Avatar, "Bad") Then
+            EnemyBad.Location = New Point(198, 263)
+            Enemy2Bad.Location = New Point(550, 133)
+            Enemy3Bad.Location = New Point(877, 12)
+            Enemy4Bad.Location = New Point(12, 374)
+            ScoreLabel.Text = 0
+            Hellcat.Visible = True
+            Avatar.Location = New Point(12, 12)
+        End If
     End Sub
     Function IntersectsWith(p As PictureBox, tag As String) As Boolean
+        Return IntersectsWith(p, tag, Nothing)
+    End Function
+    Function IntersectsWith(p As PictureBox, tag As String, Optional ByRef other As PictureBox = Nothing) As Boolean
         For Each o In Controls
             Dim obj As PictureBox
             obj = TryCast(o, PictureBox)
-            If Not obj Is Nothing Then
-                If p.Bounds.IntersectsWith(obj.Bounds) And UCase(obj.Tag) = UCase(tag) Then
+            If Not obj Is Nothing AndAlso obj.Visible Then
+                If p.Bounds.IntersectsWith(obj.Bounds) And (UCase(obj.Tag) = UCase(tag) Or
+                    UCase(obj.Name).EndsWith(UCase(tag))) Then
+                    other = obj
                     Return True
                 End If
             End If
@@ -89,9 +104,23 @@
     End Function
 
 
+
     Private Sub PointsTimer_Tick(sender As Object, e As EventArgs) Handles PointsTimer.Tick
         score += 1
         ScoreLabel.Text = score
+        If score = 30 Then
+            EnemyBad.Location = New Point(198, 263)
+            Enemy2Bad.Location = New Point(550, 133)
+            Enemy3Bad.Location = New Point(877, 12)
+            Enemy4Bad.Location = New Point(12, 374)
+            ScoreLabel.Text = 0
+            Hellcat.Visible = True
+            Avatar.Location = New Point(12, 12)
+
+        End If
     End Sub
+
+
+
 End Class
 

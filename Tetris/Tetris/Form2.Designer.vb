@@ -27,32 +27,32 @@ Partial Class Form2
         Avatar = New PictureBox()
         Hellcat = New PictureBox()
         Timer1 = New Timer(components)
-        Enemy = New PictureBox()
-        Enemy2 = New PictureBox()
-        Enemy3 = New PictureBox()
+        EnemyBad = New PictureBox()
+        Enemy2Bad = New PictureBox()
+        Enemy3Bad = New PictureBox()
         ScoreLabel = New Label()
         PointsTimer = New Timer(components)
         Platform1 = New PictureBox()
         PictureBox1 = New PictureBox()
         PictureBox2 = New PictureBox()
-        Enemy4 = New PictureBox()
+        Enemy4Bad = New PictureBox()
         PictureBox3 = New PictureBox()
         CType(Avatar, ComponentModel.ISupportInitialize).BeginInit()
         CType(Hellcat, ComponentModel.ISupportInitialize).BeginInit()
-        CType(Enemy, ComponentModel.ISupportInitialize).BeginInit()
-        CType(Enemy2, ComponentModel.ISupportInitialize).BeginInit()
-        CType(Enemy3, ComponentModel.ISupportInitialize).BeginInit()
+        CType(EnemyBad, ComponentModel.ISupportInitialize).BeginInit()
+        CType(Enemy2Bad, ComponentModel.ISupportInitialize).BeginInit()
+        CType(Enemy3Bad, ComponentModel.ISupportInitialize).BeginInit()
         CType(Platform1, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox1, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox2, ComponentModel.ISupportInitialize).BeginInit()
-        CType(Enemy4, ComponentModel.ISupportInitialize).BeginInit()
+        CType(Enemy4Bad, ComponentModel.ISupportInitialize).BeginInit()
         CType(PictureBox3, ComponentModel.ISupportInitialize).BeginInit()
         SuspendLayout()
         ' 
         ' Avatar
         ' 
         Avatar.Image = CType(resources.GetObject("Avatar.Image"), Image)
-        Avatar.Location = New Point(12, 27)
+        Avatar.Location = New Point(12, 12)
         Avatar.Name = "Avatar"
         Avatar.Size = New Size(112, 106)
         Avatar.SizeMode = PictureBoxSizeMode.StretchImage
@@ -63,7 +63,7 @@ Partial Class Form2
         ' 
         Hellcat.BackColor = SystemColors.ButtonFace
         Hellcat.Image = CType(resources.GetObject("Hellcat.Image"), Image)
-        Hellcat.Location = New Point(253, 124)
+        Hellcat.Location = New Point(670, 141)
         Hellcat.Name = "Hellcat"
         Hellcat.Size = New Size(96, 79)
         Hellcat.SizeMode = PictureBoxSizeMode.StretchImage
@@ -74,43 +74,44 @@ Partial Class Form2
         ' 
         Timer1.Enabled = True
         ' 
-        ' Enemy
+        ' EnemyBad
         ' 
-        Enemy.BackColor = Color.Chartreuse
-        Enemy.Image = CType(resources.GetObject("Enemy.Image"), Image)
-        Enemy.Location = New Point(198, 263)
-        Enemy.Name = "Enemy"
-        Enemy.Size = New Size(113, 83)
-        Enemy.SizeMode = PictureBoxSizeMode.StretchImage
-        Enemy.TabIndex = 2
-        Enemy.TabStop = False
-        Enemy.Tag = "-1"
+        EnemyBad.BackColor = Color.Chartreuse
+        EnemyBad.Image = CType(resources.GetObject("EnemyBad.Image"), Image)
+        EnemyBad.Location = New Point(198, 263)
+        EnemyBad.Name = "EnemyBad"
+        EnemyBad.Size = New Size(113, 83)
+        EnemyBad.SizeMode = PictureBoxSizeMode.StretchImage
+        EnemyBad.TabIndex = 2
+        EnemyBad.TabStop = False
+        EnemyBad.Tag = "-1"
         ' 
-        ' Enemy2
+        ' Enemy2Bad
         ' 
-        Enemy2.Image = CType(resources.GetObject("Enemy2.Image"), Image)
-        Enemy2.Location = New Point(550, 133)
-        Enemy2.Name = "Enemy2"
-        Enemy2.Size = New Size(90, 121)
-        Enemy2.SizeMode = PictureBoxSizeMode.StretchImage
-        Enemy2.TabIndex = 3
-        Enemy2.TabStop = False
-        Enemy2.Tag = "1"
+        Enemy2Bad.Image = CType(resources.GetObject("Enemy2Bad.Image"), Image)
+        Enemy2Bad.Location = New Point(550, 133)
+        Enemy2Bad.Name = "Enemy2Bad"
+        Enemy2Bad.Size = New Size(90, 121)
+        Enemy2Bad.SizeMode = PictureBoxSizeMode.StretchImage
+        Enemy2Bad.TabIndex = 3
+        Enemy2Bad.TabStop = False
+        Enemy2Bad.Tag = "-1"
         ' 
-        ' Enemy3
+        ' Enemy3Bad
         ' 
-        Enemy3.Image = CType(resources.GetObject("Enemy3.Image"), Image)
-        Enemy3.Location = New Point(877, 12)
-        Enemy3.Name = "Enemy3"
-        Enemy3.Size = New Size(118, 94)
-        Enemy3.SizeMode = PictureBoxSizeMode.StretchImage
-        Enemy3.TabIndex = 4
-        Enemy3.TabStop = False
+        Enemy3Bad.Image = CType(resources.GetObject("Enemy3Bad.Image"), Image)
+        Enemy3Bad.Location = New Point(630, 459)
+        Enemy3Bad.Name = "Enemy3Bad"
+        Enemy3Bad.Size = New Size(118, 94)
+        Enemy3Bad.SizeMode = PictureBoxSizeMode.StretchImage
+        Enemy3Bad.TabIndex = 4
+        Enemy3Bad.TabStop = False
+        Enemy3Bad.Tag = ""
         ' 
         ' ScoreLabel
         ' 
         ScoreLabel.AutoSize = True
-        ScoreLabel.Location = New Point(343, 44)
+        ScoreLabel.Location = New Point(464, 12)
         ScoreLabel.Name = "ScoreLabel"
         ScoreLabel.Size = New Size(51, 20)
         ScoreLabel.TabIndex = 5
@@ -118,7 +119,6 @@ Partial Class Form2
         ' 
         ' PointsTimer
         ' 
-        PointsTimer.Enabled = True
         PointsTimer.Interval = 1000
         ' 
         ' Platform1
@@ -150,15 +150,16 @@ Partial Class Form2
         PictureBox2.TabStop = False
         PictureBox2.Tag = "wall"
         ' 
-        ' Enemy4
+        ' Enemy4Bad
         ' 
-        Enemy4.Image = CType(resources.GetObject("Enemy4.Image"), Image)
-        Enemy4.Location = New Point(12, 374)
-        Enemy4.Name = "Enemy4"
-        Enemy4.Size = New Size(118, 94)
-        Enemy4.SizeMode = PictureBoxSizeMode.StretchImage
-        Enemy4.TabIndex = 9
-        Enemy4.TabStop = False
+        Enemy4Bad.Image = CType(resources.GetObject("Enemy4Bad.Image"), Image)
+        Enemy4Bad.Location = New Point(170, 394)
+        Enemy4Bad.Name = "Enemy4Bad"
+        Enemy4Bad.Size = New Size(118, 94)
+        Enemy4Bad.SizeMode = PictureBoxSizeMode.StretchImage
+        Enemy4Bad.TabIndex = 9
+        Enemy4Bad.TabStop = False
+        Enemy4Bad.Tag = ""
         ' 
         ' PictureBox3
         ' 
@@ -174,29 +175,30 @@ Partial Class Form2
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
+        BackColor = Color.Gray
         ClientSize = New Size(1027, 547)
         Controls.Add(PictureBox3)
-        Controls.Add(Enemy4)
+        Controls.Add(Enemy4Bad)
         Controls.Add(PictureBox2)
         Controls.Add(PictureBox1)
         Controls.Add(Platform1)
         Controls.Add(ScoreLabel)
-        Controls.Add(Enemy3)
-        Controls.Add(Enemy2)
-        Controls.Add(Enemy)
+        Controls.Add(Enemy3Bad)
+        Controls.Add(Enemy2Bad)
+        Controls.Add(EnemyBad)
         Controls.Add(Hellcat)
         Controls.Add(Avatar)
         Name = "Form2"
         Text = "    "
         CType(Avatar, ComponentModel.ISupportInitialize).EndInit()
         CType(Hellcat, ComponentModel.ISupportInitialize).EndInit()
-        CType(Enemy, ComponentModel.ISupportInitialize).EndInit()
-        CType(Enemy2, ComponentModel.ISupportInitialize).EndInit()
-        CType(Enemy3, ComponentModel.ISupportInitialize).EndInit()
+        CType(EnemyBad, ComponentModel.ISupportInitialize).EndInit()
+        CType(Enemy2Bad, ComponentModel.ISupportInitialize).EndInit()
+        CType(Enemy3Bad, ComponentModel.ISupportInitialize).EndInit()
         CType(Platform1, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox1, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox2, ComponentModel.ISupportInitialize).EndInit()
-        CType(Enemy4, ComponentModel.ISupportInitialize).EndInit()
+        CType(Enemy4Bad, ComponentModel.ISupportInitialize).EndInit()
         CType(PictureBox3, ComponentModel.ISupportInitialize).EndInit()
         ResumeLayout(False)
         PerformLayout()
@@ -205,15 +207,15 @@ Partial Class Form2
     Friend WithEvents Avatar As PictureBox
     Friend WithEvents Hellcat As PictureBox
     Friend WithEvents Timer1 As Timer
-    Friend WithEvents Enemy As PictureBox
-    Friend WithEvents Enemy2 As PictureBox
-    Friend WithEvents Enemy3 As PictureBox
+    Friend WithEvents EnemyBad As PictureBox
+    Friend WithEvents Enemy2Bad As PictureBox
+    Friend WithEvents Enemy3Bad As PictureBox
     Friend WithEvents ScoreLabel As Label
     Friend WithEvents PointsTimer As Timer
     Friend WithEvents Platform1 As PictureBox
     Friend WithEvents PictureBox1 As PictureBox
     Friend WithEvents PictureBox2 As PictureBox
-    Friend WithEvents Enemy4 As PictureBox
+    Friend WithEvents Enemy4Bad As PictureBox
     Friend WithEvents PictureBox3 As PictureBox
 
 End Class
