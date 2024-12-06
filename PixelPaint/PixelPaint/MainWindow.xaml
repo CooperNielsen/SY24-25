@@ -107,8 +107,8 @@
         <Rectangle x:Name="p97" HorizontalAlignment="Left" Height="25" Margin="183,235,0,0" Stroke="Black" VerticalAlignment="Top" Width="25" Fill="#FF267EA1"/>
         <Rectangle x:Name="p96" HorizontalAlignment="Left" Height="25" Margin="159,235,0,0" Stroke="Black" VerticalAlignment="Top" Width="24" Fill="#FF267EA1"/>
         <Rectangle x:Name="p95" HorizontalAlignment="Left" Height="25" Margin="134,235,0,0" Stroke="Black" VerticalAlignment="Top" Width="25" Fill="#FF267EA1"/>
-        <Rectangle x:Name="Brush1" HorizontalAlignment="Left" Height="10" Margin="513,148,0,0" Stroke="Black" VerticalAlignment="Top" Width="10" Fill="#FF7327D1"/>
-        <Rectangle x:Name="Fill1" HorizontalAlignment="Left" Height="10" Margin="528,148,0,0" Stroke="Black" VerticalAlignment="Top" Width="10">
+        <Rectangle x:Name="Brush1" HorizontalAlignment="Left" Height="30" Margin="466,130,0,0" Stroke="Black" VerticalAlignment="Top" Width="30"/>
+        <Rectangle x:Name="Fill1" HorizontalAlignment="Left" Height="30" Margin="501,130,0,0" Stroke="Black" VerticalAlignment="Top" Width="30">
             <Rectangle.Fill>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="Black"/>
@@ -116,6 +116,63 @@
                 </LinearGradientBrush>
             </Rectangle.Fill>
         </Rectangle>
+        <Rectangle x:Name="Fill2" HorizontalAlignment="Left" Height="30" Margin="536,130,0,0" Stroke="Black" VerticalAlignment="Top" Width="30">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FFE51414" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="Fill3" HorizontalAlignment="Left" Height="30" Margin="571,130,0,0" Stroke="Black" VerticalAlignment="Top" Width="30">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF34E31C" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="Fill4" HorizontalAlignment="Left" Height="30" Margin="606,130,0,0" Stroke="Black" VerticalAlignment="Top" Width="30">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FFE2E519" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="Fill5" HorizontalAlignment="Left" Height="30" Margin="466,168,0,0" Stroke="Black" VerticalAlignment="Top" Width="30">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FFE87720" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="Fill6" HorizontalAlignment="Left" Height="30" Margin="501,168,0,0" Stroke="Black" VerticalAlignment="Top" Width="30">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FF6D2ADD" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="Fill7" HorizontalAlignment="Left" Height="30" Margin="536,168,0,0" Stroke="Black" VerticalAlignment="Top" Width="30">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FFDB2ADD" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="Fill8" HorizontalAlignment="Left" Height="30" Margin="571,168,0,0" Stroke="Black" VerticalAlignment="Top" Width="30">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black"/>
+                    <GradientStop Color="#FFAB2161" Offset="1"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Rectangle x:Name="fill9" HorizontalAlignment="Left" Height="30" Margin="606,168,0,0" Stroke="Black" VerticalAlignment="Top" Width="30"/>
 
     </Grid>
 </Window>
