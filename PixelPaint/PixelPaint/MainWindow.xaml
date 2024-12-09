@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:PixelPaint"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid x:Name="Grid1">
         <Rectangle x:Name="p04" HorizontalAlignment="Left" Height="25" Margin="109,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="25" Fill="#FF267EA1"/>
         <Rectangle x:Name="p03" HorizontalAlignment="Left" Height="25" Margin="84,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="25" Fill="#FF267EA1"/>
         <Rectangle x:Name="p02" HorizontalAlignment="Left" Height="25" Margin="59,10,0,0" Stroke="Black" VerticalAlignment="Top" Width="25" Fill="#FF267EA1"/>
@@ -172,7 +172,13 @@
                 </LinearGradientBrush>
             </Rectangle.Fill>
         </Rectangle>
-        <Rectangle x:Name="fill9" HorizontalAlignment="Left" Height="30" Margin="606,168,0,0" Stroke="Black" VerticalAlignment="Top" Width="30"/>
+        <Rectangle x:Name="fill9" HorizontalAlignment="Left" Height="30" Margin="606,168,0,0" Stroke="Black" VerticalAlignment="Top" Width="30" Fill="White"/>
+        <Rectangle x:Name="fill10" HorizontalAlignment="Left" Height="30" Margin="466,208,0,0" Stroke="Black" VerticalAlignment="Top" Width="30" Fill="#FFB42222"/>
+        <Rectangle x:Name="fill11" HorizontalAlignment="Left" Height="30" Margin="501,208,0,0" Stroke="Black" VerticalAlignment="Top" Width="30" Fill="#FF1C3FAF"/>
+        <Rectangle x:Name="fill12" HorizontalAlignment="Left" Height="30" Margin="536,208,0,0" Stroke="Black" VerticalAlignment="Top" Width="30" Fill="#FFD210CE"/>
+        <Rectangle x:Name="fill14" HorizontalAlignment="Left" Height="30" Margin="606,208,0,0" Stroke="Black" VerticalAlignment="Top" Width="30" Fill="#FF27BBDC"/>
+        <Rectangle x:Name="fill13" HorizontalAlignment="Left" Height="30" Margin="571,208,0,0" Stroke="Black" VerticalAlignment="Top" Width="30" Fill="#FFD7901F"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="501,313,0,0" VerticalAlignment="Top" Click="Button_Click"/>
 
     </Grid>
 </Window>
