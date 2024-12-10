@@ -178,7 +178,9 @@
         <Rectangle x:Name="fill12" HorizontalAlignment="Left" Height="30" Margin="536,208,0,0" Stroke="Black" VerticalAlignment="Top" Width="30" Fill="#FFD210CE"/>
         <Rectangle x:Name="fill14" HorizontalAlignment="Left" Height="30" Margin="606,208,0,0" Stroke="Black" VerticalAlignment="Top" Width="30" Fill="#FF27BBDC"/>
         <Rectangle x:Name="fill13" HorizontalAlignment="Left" Height="30" Margin="571,208,0,0" Stroke="Black" VerticalAlignment="Top" Width="30" Fill="#FFD7901F"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="501,313,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button Content="reset" HorizontalAlignment="Left" Margin="109,285,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button Content="Top fill" HorizontalAlignment="Left" Margin="176,285,0,0" VerticalAlignment="Top" Click="Button_Click_1"/>
+        <Button Content="Bottom fill" HorizontalAlignment="Left" Margin="35,285,0,0" VerticalAlignment="Top" Click="Button_Click_2"/>
 
     </Grid>
 </Window>

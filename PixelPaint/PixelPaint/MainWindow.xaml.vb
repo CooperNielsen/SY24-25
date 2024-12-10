@@ -12,13 +12,36 @@
     End Sub
 
     Private Sub Button_Click(sender As Object, e As RoutedEventArgs)
-        For Each r In Grid1.Children
-            Dim s As String
-            s = r.name
-            If s.StartsWith("p") Then
-                r.fill = New SolidColorBrush(Colors.Black)
-            End If
+        For index = 0 To 99
+            getRect(index).Fill = New SolidColorBrush(Colors.Maroon)
+        Next
+    End Sub
 
+    Private Function getRect(i As Integer) As Rectangle
+        Dim s As String
+        If i < 10 Then
+            s = "p0" & i
+        Else
+            s = "p" & i
+        End If
+        For Each u In Grid1.Children
+
+            If u.name.Startswith(s) Then
+                Return u
+            End If
+        Next
+        Return Nothing
+    End Function
+
+    Private Sub Button_Click_1(sender As Object, e As RoutedEventArgs)
+        For index = 0 To 49
+            getRect(index).Fill = Brush1.Fill
+        Next
+    End Sub
+
+    Private Sub Button_Click_2(sender As Object, e As RoutedEventArgs)
+        For index = 50 To 99
+            getRect(index).Fill = Brush1.Fill
         Next
     End Sub
 End Class
