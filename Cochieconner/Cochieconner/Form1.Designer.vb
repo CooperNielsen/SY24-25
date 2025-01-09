@@ -92,36 +92,37 @@ Partial Class Form1
         b62 = New Button()
         b61 = New Button()
         b60 = New Button()
-        Button71 = New Button()
-        Button72 = New Button()
-        Button73 = New Button()
-        Button74 = New Button()
-        Button75 = New Button()
-        Button76 = New Button()
-        Button77 = New Button()
-        Button78 = New Button()
-        Button79 = New Button()
-        Button80 = New Button()
-        Button81 = New Button()
-        Button82 = New Button()
-        Button83 = New Button()
-        Button84 = New Button()
-        Button85 = New Button()
-        Button86 = New Button()
-        Button87 = New Button()
-        Button88 = New Button()
-        Button89 = New Button()
-        Button90 = New Button()
-        Button91 = New Button()
-        Button92 = New Button()
-        Button93 = New Button()
-        Button94 = New Button()
-        Button95 = New Button()
-        Button96 = New Button()
-        Button97 = New Button()
-        Button98 = New Button()
-        Button99 = New Button()
-        Button100 = New Button()
+        b79 = New Button()
+        b78 = New Button()
+        b77 = New Button()
+        b76 = New Button()
+        b75 = New Button()
+        b74 = New Button()
+        b73 = New Button()
+        b72 = New Button()
+        b71 = New Button()
+        b70 = New Button()
+        b89 = New Button()
+        b88 = New Button()
+        b87 = New Button()
+        b86 = New Button()
+        b85 = New Button()
+        b84 = New Button()
+        b83 = New Button()
+        b82 = New Button()
+        b81 = New Button()
+        b80 = New Button()
+        b99 = New Button()
+        b98 = New Button()
+        b97 = New Button()
+        b96 = New Button()
+        b95 = New Button()
+        b94 = New Button()
+        b93 = New Button()
+        b92 = New Button()
+        b91 = New Button()
+        b90 = New Button()
+        Button1 = New Button()
         SuspendLayout()
         ' 
         ' b0
@@ -684,281 +685,291 @@ Partial Class Form1
         b60.TabIndex = 60
         b60.UseVisualStyleBackColor = True
         ' 
-        ' Button71
+        ' b79
         ' 
-        Button71.Location = New Point(335, 252)
-        Button71.Name = "Button71"
-        Button71.Size = New Size(30, 30)
-        Button71.TabIndex = 79
-        Button71.UseVisualStyleBackColor = True
+        b79.Location = New Point(335, 252)
+        b79.Name = "b79"
+        b79.Size = New Size(30, 30)
+        b79.TabIndex = 79
+        b79.UseVisualStyleBackColor = True
         ' 
-        ' Button72
+        ' b78
         ' 
-        Button72.Location = New Point(308, 252)
-        Button72.Name = "Button72"
-        Button72.Size = New Size(30, 30)
-        Button72.TabIndex = 78
-        Button72.UseVisualStyleBackColor = True
+        b78.Location = New Point(308, 252)
+        b78.Name = "b78"
+        b78.Size = New Size(30, 30)
+        b78.TabIndex = 78
+        b78.UseVisualStyleBackColor = True
         ' 
-        ' Button73
+        ' b77
         ' 
-        Button73.Location = New Point(281, 252)
-        Button73.Name = "Button73"
-        Button73.Size = New Size(30, 30)
-        Button73.TabIndex = 77
-        Button73.UseVisualStyleBackColor = True
+        b77.Location = New Point(281, 252)
+        b77.Name = "b77"
+        b77.Size = New Size(30, 30)
+        b77.TabIndex = 77
+        b77.UseVisualStyleBackColor = True
         ' 
-        ' Button74
+        ' b76
         ' 
-        Button74.Location = New Point(255, 252)
-        Button74.Name = "Button74"
-        Button74.Size = New Size(30, 30)
-        Button74.TabIndex = 76
-        Button74.UseVisualStyleBackColor = True
+        b76.Location = New Point(255, 252)
+        b76.Name = "b76"
+        b76.Size = New Size(30, 30)
+        b76.TabIndex = 76
+        b76.UseVisualStyleBackColor = True
         ' 
-        ' Button75
+        ' b75
         ' 
-        Button75.Location = New Point(228, 252)
-        Button75.Name = "Button75"
-        Button75.Size = New Size(30, 30)
-        Button75.TabIndex = 75
-        Button75.UseVisualStyleBackColor = True
+        b75.Location = New Point(228, 252)
+        b75.Name = "b75"
+        b75.Size = New Size(30, 30)
+        b75.TabIndex = 75
+        b75.UseVisualStyleBackColor = True
         ' 
-        ' Button76
+        ' b74
         ' 
-        Button76.Location = New Point(202, 252)
-        Button76.Name = "Button76"
-        Button76.Size = New Size(30, 30)
-        Button76.TabIndex = 74
-        Button76.UseVisualStyleBackColor = True
+        b74.Location = New Point(202, 252)
+        b74.Name = "b74"
+        b74.Size = New Size(30, 30)
+        b74.TabIndex = 74
+        b74.UseVisualStyleBackColor = True
         ' 
-        ' Button77
+        ' b73
         ' 
-        Button77.Location = New Point(175, 252)
-        Button77.Name = "Button77"
-        Button77.Size = New Size(30, 30)
-        Button77.TabIndex = 73
-        Button77.UseVisualStyleBackColor = True
+        b73.Location = New Point(175, 252)
+        b73.Name = "b73"
+        b73.Size = New Size(30, 30)
+        b73.TabIndex = 73
+        b73.UseVisualStyleBackColor = True
         ' 
-        ' Button78
+        ' b72
         ' 
-        Button78.Location = New Point(148, 252)
-        Button78.Name = "Button78"
-        Button78.Size = New Size(30, 30)
-        Button78.TabIndex = 72
-        Button78.UseVisualStyleBackColor = True
+        b72.Location = New Point(148, 252)
+        b72.Name = "b72"
+        b72.Size = New Size(30, 30)
+        b72.TabIndex = 72
+        b72.UseVisualStyleBackColor = True
         ' 
-        ' Button79
+        ' b71
         ' 
-        Button79.Location = New Point(122, 252)
-        Button79.Name = "Button79"
-        Button79.Size = New Size(30, 30)
-        Button79.TabIndex = 71
-        Button79.UseVisualStyleBackColor = True
+        b71.Location = New Point(122, 252)
+        b71.Name = "b71"
+        b71.Size = New Size(30, 30)
+        b71.TabIndex = 71
+        b71.UseVisualStyleBackColor = True
         ' 
-        ' Button80
+        ' b70
         ' 
-        Button80.Location = New Point(95, 252)
-        Button80.Name = "Button80"
-        Button80.Size = New Size(30, 30)
-        Button80.TabIndex = 70
-        Button80.UseVisualStyleBackColor = True
+        b70.Location = New Point(95, 252)
+        b70.Name = "b70"
+        b70.Size = New Size(30, 30)
+        b70.TabIndex = 70
+        b70.UseVisualStyleBackColor = True
         ' 
-        ' Button81
+        ' b89
         ' 
-        Button81.Location = New Point(335, 279)
-        Button81.Name = "Button81"
-        Button81.Size = New Size(30, 30)
-        Button81.TabIndex = 89
-        Button81.UseVisualStyleBackColor = True
+        b89.Location = New Point(335, 279)
+        b89.Name = "b89"
+        b89.Size = New Size(30, 30)
+        b89.TabIndex = 89
+        b89.UseVisualStyleBackColor = True
         ' 
-        ' Button82
+        ' b88
         ' 
-        Button82.Location = New Point(308, 279)
-        Button82.Name = "Button82"
-        Button82.Size = New Size(30, 30)
-        Button82.TabIndex = 88
-        Button82.UseVisualStyleBackColor = True
+        b88.Location = New Point(308, 279)
+        b88.Name = "b88"
+        b88.Size = New Size(30, 30)
+        b88.TabIndex = 88
+        b88.UseVisualStyleBackColor = True
         ' 
-        ' Button83
+        ' b87
         ' 
-        Button83.Location = New Point(281, 279)
-        Button83.Name = "Button83"
-        Button83.Size = New Size(30, 30)
-        Button83.TabIndex = 87
-        Button83.UseVisualStyleBackColor = True
+        b87.Location = New Point(281, 279)
+        b87.Name = "b87"
+        b87.Size = New Size(30, 30)
+        b87.TabIndex = 87
+        b87.UseVisualStyleBackColor = True
         ' 
-        ' Button84
+        ' b86
         ' 
-        Button84.Location = New Point(255, 279)
-        Button84.Name = "Button84"
-        Button84.Size = New Size(30, 30)
-        Button84.TabIndex = 86
-        Button84.UseVisualStyleBackColor = True
+        b86.Location = New Point(255, 279)
+        b86.Name = "b86"
+        b86.Size = New Size(30, 30)
+        b86.TabIndex = 86
+        b86.UseVisualStyleBackColor = True
         ' 
-        ' Button85
+        ' b85
         ' 
-        Button85.Location = New Point(228, 279)
-        Button85.Name = "Button85"
-        Button85.Size = New Size(30, 30)
-        Button85.TabIndex = 85
-        Button85.UseVisualStyleBackColor = True
+        b85.Location = New Point(228, 279)
+        b85.Name = "b85"
+        b85.Size = New Size(30, 30)
+        b85.TabIndex = 85
+        b85.UseVisualStyleBackColor = True
         ' 
-        ' Button86
+        ' b84
         ' 
-        Button86.Location = New Point(202, 279)
-        Button86.Name = "Button86"
-        Button86.Size = New Size(30, 30)
-        Button86.TabIndex = 84
-        Button86.UseVisualStyleBackColor = True
+        b84.Location = New Point(202, 279)
+        b84.Name = "b84"
+        b84.Size = New Size(30, 30)
+        b84.TabIndex = 84
+        b84.UseVisualStyleBackColor = True
         ' 
-        ' Button87
+        ' b83
         ' 
-        Button87.Location = New Point(175, 279)
-        Button87.Name = "Button87"
-        Button87.Size = New Size(30, 30)
-        Button87.TabIndex = 83
-        Button87.UseVisualStyleBackColor = True
+        b83.Location = New Point(175, 279)
+        b83.Name = "b83"
+        b83.Size = New Size(30, 30)
+        b83.TabIndex = 83
+        b83.UseVisualStyleBackColor = True
         ' 
-        ' Button88
+        ' b82
         ' 
-        Button88.Location = New Point(148, 279)
-        Button88.Name = "Button88"
-        Button88.Size = New Size(30, 30)
-        Button88.TabIndex = 82
-        Button88.UseVisualStyleBackColor = True
+        b82.Location = New Point(148, 279)
+        b82.Name = "b82"
+        b82.Size = New Size(30, 30)
+        b82.TabIndex = 82
+        b82.UseVisualStyleBackColor = True
         ' 
-        ' Button89
+        ' b81
         ' 
-        Button89.Location = New Point(122, 279)
-        Button89.Name = "Button89"
-        Button89.Size = New Size(30, 30)
-        Button89.TabIndex = 81
-        Button89.UseVisualStyleBackColor = True
+        b81.Location = New Point(122, 279)
+        b81.Name = "b81"
+        b81.Size = New Size(30, 30)
+        b81.TabIndex = 81
+        b81.UseVisualStyleBackColor = True
         ' 
-        ' Button90
+        ' b80
         ' 
-        Button90.Location = New Point(95, 279)
-        Button90.Name = "Button90"
-        Button90.Size = New Size(30, 30)
-        Button90.TabIndex = 80
-        Button90.UseVisualStyleBackColor = True
+        b80.Location = New Point(95, 279)
+        b80.Name = "b80"
+        b80.Size = New Size(30, 30)
+        b80.TabIndex = 80
+        b80.UseVisualStyleBackColor = True
         ' 
-        ' Button91
+        ' b99
         ' 
-        Button91.Location = New Point(335, 305)
-        Button91.Name = "Button91"
-        Button91.Size = New Size(30, 30)
-        Button91.TabIndex = 99
-        Button91.UseVisualStyleBackColor = True
+        b99.Location = New Point(335, 305)
+        b99.Name = "b99"
+        b99.Size = New Size(30, 30)
+        b99.TabIndex = 99
+        b99.UseVisualStyleBackColor = True
         ' 
-        ' Button92
+        ' b98
         ' 
-        Button92.Location = New Point(308, 305)
-        Button92.Name = "Button92"
-        Button92.Size = New Size(30, 30)
-        Button92.TabIndex = 98
-        Button92.UseVisualStyleBackColor = True
+        b98.Location = New Point(308, 305)
+        b98.Name = "b98"
+        b98.Size = New Size(30, 30)
+        b98.TabIndex = 98
+        b98.UseVisualStyleBackColor = True
         ' 
-        ' Button93
+        ' b97
         ' 
-        Button93.Location = New Point(281, 305)
-        Button93.Name = "Button93"
-        Button93.Size = New Size(30, 30)
-        Button93.TabIndex = 97
-        Button93.UseVisualStyleBackColor = True
+        b97.Location = New Point(281, 305)
+        b97.Name = "b97"
+        b97.Size = New Size(30, 30)
+        b97.TabIndex = 97
+        b97.UseVisualStyleBackColor = True
         ' 
-        ' Button94
+        ' b96
         ' 
-        Button94.Location = New Point(255, 305)
-        Button94.Name = "Button94"
-        Button94.Size = New Size(30, 30)
-        Button94.TabIndex = 96
-        Button94.UseVisualStyleBackColor = True
+        b96.Location = New Point(255, 305)
+        b96.Name = "b96"
+        b96.Size = New Size(30, 30)
+        b96.TabIndex = 96
+        b96.UseVisualStyleBackColor = True
         ' 
-        ' Button95
+        ' b95
         ' 
-        Button95.Location = New Point(228, 305)
-        Button95.Name = "Button95"
-        Button95.Size = New Size(30, 30)
-        Button95.TabIndex = 95
-        Button95.UseVisualStyleBackColor = True
+        b95.Location = New Point(228, 305)
+        b95.Name = "b95"
+        b95.Size = New Size(30, 30)
+        b95.TabIndex = 95
+        b95.UseVisualStyleBackColor = True
         ' 
-        ' Button96
+        ' b94
         ' 
-        Button96.Location = New Point(202, 305)
-        Button96.Name = "Button96"
-        Button96.Size = New Size(30, 30)
-        Button96.TabIndex = 94
-        Button96.UseVisualStyleBackColor = True
+        b94.Location = New Point(202, 305)
+        b94.Name = "b94"
+        b94.Size = New Size(30, 30)
+        b94.TabIndex = 94
+        b94.UseVisualStyleBackColor = True
         ' 
-        ' Button97
+        ' b93
         ' 
-        Button97.Location = New Point(175, 305)
-        Button97.Name = "Button97"
-        Button97.Size = New Size(30, 30)
-        Button97.TabIndex = 93
-        Button97.UseVisualStyleBackColor = True
+        b93.Location = New Point(175, 305)
+        b93.Name = "b93"
+        b93.Size = New Size(30, 30)
+        b93.TabIndex = 93
+        b93.UseVisualStyleBackColor = True
         ' 
-        ' Button98
+        ' b92
         ' 
-        Button98.Location = New Point(148, 305)
-        Button98.Name = "Button98"
-        Button98.Size = New Size(30, 30)
-        Button98.TabIndex = 92
-        Button98.UseVisualStyleBackColor = True
+        b92.Location = New Point(148, 305)
+        b92.Name = "b92"
+        b92.Size = New Size(30, 30)
+        b92.TabIndex = 92
+        b92.UseVisualStyleBackColor = True
         ' 
-        ' Button99
+        ' b91
         ' 
-        Button99.Location = New Point(122, 305)
-        Button99.Name = "Button99"
-        Button99.Size = New Size(30, 30)
-        Button99.TabIndex = 91
-        Button99.UseVisualStyleBackColor = True
+        b91.Location = New Point(122, 305)
+        b91.Name = "b91"
+        b91.Size = New Size(30, 30)
+        b91.TabIndex = 91
+        b91.UseVisualStyleBackColor = True
         ' 
-        ' Button100
+        ' b90
         ' 
-        Button100.Location = New Point(95, 305)
-        Button100.Name = "Button100"
-        Button100.Size = New Size(30, 30)
-        Button100.TabIndex = 90
-        Button100.UseVisualStyleBackColor = True
+        b90.Location = New Point(95, 305)
+        b90.Name = "b90"
+        b90.Size = New Size(30, 30)
+        b90.TabIndex = 90
+        b90.UseVisualStyleBackColor = True
+        ' 
+        ' Button1
+        ' 
+        Button1.Location = New Point(531, 247)
+        Button1.Name = "Button1"
+        Button1.Size = New Size(94, 29)
+        Button1.TabIndex = 100
+        Button1.Text = "Test"
+        Button1.UseVisualStyleBackColor = True
         ' 
         ' Form1
         ' 
         AutoScaleDimensions = New SizeF(8F, 20F)
         AutoScaleMode = AutoScaleMode.Font
         ClientSize = New Size(800, 450)
-        Controls.Add(Button91)
-        Controls.Add(Button92)
-        Controls.Add(Button93)
-        Controls.Add(Button94)
-        Controls.Add(Button95)
-        Controls.Add(Button96)
-        Controls.Add(Button97)
-        Controls.Add(Button98)
-        Controls.Add(Button99)
-        Controls.Add(Button100)
-        Controls.Add(Button81)
-        Controls.Add(Button82)
-        Controls.Add(Button83)
-        Controls.Add(Button84)
-        Controls.Add(Button85)
-        Controls.Add(Button86)
-        Controls.Add(Button87)
-        Controls.Add(Button88)
-        Controls.Add(Button89)
-        Controls.Add(Button90)
-        Controls.Add(Button71)
-        Controls.Add(Button72)
-        Controls.Add(Button73)
-        Controls.Add(Button74)
-        Controls.Add(Button75)
-        Controls.Add(Button76)
-        Controls.Add(Button77)
-        Controls.Add(Button78)
-        Controls.Add(Button79)
-        Controls.Add(Button80)
+        Controls.Add(Button1)
+        Controls.Add(b99)
+        Controls.Add(b98)
+        Controls.Add(b97)
+        Controls.Add(b96)
+        Controls.Add(b95)
+        Controls.Add(b94)
+        Controls.Add(b93)
+        Controls.Add(b92)
+        Controls.Add(b91)
+        Controls.Add(b90)
+        Controls.Add(b89)
+        Controls.Add(b88)
+        Controls.Add(b87)
+        Controls.Add(b86)
+        Controls.Add(b85)
+        Controls.Add(b84)
+        Controls.Add(b83)
+        Controls.Add(b82)
+        Controls.Add(b81)
+        Controls.Add(b80)
+        Controls.Add(b79)
+        Controls.Add(b78)
+        Controls.Add(b77)
+        Controls.Add(b76)
+        Controls.Add(b75)
+        Controls.Add(b74)
+        Controls.Add(b73)
+        Controls.Add(b72)
+        Controls.Add(b71)
+        Controls.Add(b70)
         Controls.Add(b69)
         Controls.Add(b68)
         Controls.Add(b67)
@@ -1104,35 +1115,36 @@ Partial Class Form1
     Friend WithEvents b62 As Button
     Friend WithEvents b61 As Button
     Friend WithEvents b60 As Button
-    Friend WithEvents Button71 As Button
-    Friend WithEvents Button72 As Button
-    Friend WithEvents Button73 As Button
-    Friend WithEvents Button74 As Button
-    Friend WithEvents Button75 As Button
-    Friend WithEvents Button76 As Button
-    Friend WithEvents Button77 As Button
-    Friend WithEvents Button78 As Button
-    Friend WithEvents Button79 As Button
-    Friend WithEvents Button80 As Button
-    Friend WithEvents Button81 As Button
-    Friend WithEvents Button82 As Button
-    Friend WithEvents Button83 As Button
-    Friend WithEvents Button84 As Button
-    Friend WithEvents Button85 As Button
-    Friend WithEvents Button86 As Button
-    Friend WithEvents Button87 As Button
-    Friend WithEvents Button88 As Button
-    Friend WithEvents Button89 As Button
-    Friend WithEvents Button90 As Button
-    Friend WithEvents Button91 As Button
-    Friend WithEvents Button92 As Button
-    Friend WithEvents Button93 As Button
-    Friend WithEvents Button94 As Button
-    Friend WithEvents Button95 As Button
-    Friend WithEvents Button96 As Button
-    Friend WithEvents Button97 As Button
-    Friend WithEvents Button98 As Button
-    Friend WithEvents Button99 As Button
-    Friend WithEvents Button100 As Button
+    Friend WithEvents b79 As Button
+    Friend WithEvents b78 As Button
+    Friend WithEvents b77 As Button
+    Friend WithEvents b76 As Button
+    Friend WithEvents b75 As Button
+    Friend WithEvents b74 As Button
+    Friend WithEvents b73 As Button
+    Friend WithEvents b72 As Button
+    Friend WithEvents b71 As Button
+    Friend WithEvents b70 As Button
+    Friend WithEvents b89 As Button
+    Friend WithEvents b88 As Button
+    Friend WithEvents b87 As Button
+    Friend WithEvents b86 As Button
+    Friend WithEvents b85 As Button
+    Friend WithEvents b84 As Button
+    Friend WithEvents b83 As Button
+    Friend WithEvents b82 As Button
+    Friend WithEvents b81 As Button
+    Friend WithEvents b80 As Button
+    Friend WithEvents b99 As Button
+    Friend WithEvents b98 As Button
+    Friend WithEvents b97 As Button
+    Friend WithEvents b96 As Button
+    Friend WithEvents b95 As Button
+    Friend WithEvents b94 As Button
+    Friend WithEvents b93 As Button
+    Friend WithEvents b92 As Button
+    Friend WithEvents b91 As Button
+    Friend WithEvents b90 As Button
+    Friend WithEvents Button1 As Button
 
 End Class
